@@ -502,6 +502,8 @@ body{
 #section2{
     display:block;
     overflow: hidden;
+    padding:10px;
+    
 }
 .main-header{
     height:25vh;
@@ -514,24 +516,30 @@ body{
 }
 .main-header h1{
     font-size:1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: -.15em;
     line-height: 1.2;
 }
 .main-header h1 span{
+    
     color:#b50d10;
 }
 
 .main-header p{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .buy{
-    display: inline-block;
+    display: inline-flex;
     background-color: #000;
     color:#fff;
-    margin: 1.5rem 1.5rem;
+    margin: .5rem .5rem;
     cursor: pointer;
-    padding:0.5rem;
+    padding:5px;
+    width:5rem;
+    height:3rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 .buy:hover{
     opacity: 0.5;
